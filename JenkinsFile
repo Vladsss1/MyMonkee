@@ -10,11 +10,12 @@
           stage('tests') {
               steps {
                   // Get some code from a GitHub repository
-                  git 'https://github.com/Vladsss1/Monke.git'
+                  git 'https://github.com/Vladsss1/MyMonkee.git'
 
                   // To run Maven on a Windows agent, use
                    bat "mvn clean test -Dmaven.test.failure.ignore=true"
               }
+
 
               post {
                   // If Maven was able to run the tests, even if some of the test
