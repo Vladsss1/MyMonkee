@@ -76,13 +76,18 @@
 - Back to main page;
 ---
 # Home Page:
+- Open page;
+  "https://my.monkkee.com/#/"
+- Login;
+- Submit;
+- Open home page;
+- Is page open;
 ---
 # Blog Page:
 - Open page;
   "https://my.monkkee.com/#/"
 - Login;
 - Submit;
-- Is page open;
 - Open blog page;
 - Is page open;
 - ---
@@ -98,3 +103,4 @@
 - Clear tag name;
 - Create new name tags;
 - Click on button submit;
+- ---
