@@ -17,7 +17,7 @@ public class HomePage extends BasePage {
 
     @Override
     public boolean isPageOpen() {
-        return isExist(TITLE_HOME_PAGE);
+        return isExist(BUTTON_SIGNUP);
     }
 
     public HomePage OpenHome() {
