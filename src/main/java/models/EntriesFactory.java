@@ -2,8 +2,7 @@ package models;
 
 import com.github.javafaker.Faker;
 
-
-public class EntriesFactory{
+public class EntriesFactory {
     static Faker faker = new Faker();
 
     public static Entries get() {

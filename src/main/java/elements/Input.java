@@ -21,10 +21,6 @@ public class Input {
     }
     public void write(String text) {
         driver.findElement(By.xpath(String.format(inputLocator, this.name))).sendKeys(text);
-
-    }
-    public void clear() {
-        driver.findElement(By.xpath(String.format(inputLocator, this.name))).clear();
     }
     public void click() {
         driver.findElement(By.xpath(String.format(inputLocator, this.name))).click();

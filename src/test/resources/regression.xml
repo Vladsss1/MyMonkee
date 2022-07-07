@@ -12,14 +12,13 @@
     <test name="Stream 2">
         <classes>
             <class name="tests.LoginTest"/>
-            <class name="tests.BlogTest"/>
+            <class name="tests.HomeTest"/>
 
         </classes>
     </test> <!-- Test -->
 
     <test name="Stream 3">
         <classes>
-            <class name="tests.HomeTest"/>
             <class name="tests.SettingTest"/>
             <class name="tests.TagsTest"/>
 
