@@ -75,6 +75,7 @@
 - Select new standby setting;
 - Back to main page;
 ---
+
 # Home Page:
 - Open page;
   "https://my.monkkee.com/#/"
